@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import WhatsAppButton from "@/components/whatsapp_button";
 
 const poppins = Poppins({
   style: ["normal"],
@@ -23,7 +24,9 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={`${poppins.className} antialiased`}>
         <Header />
-        <main className="w-auto h-auto">{children}</main>
+        <main className="w-auto h-auto">{children}
+          <WhatsAppButton />
+        </main>
         <Footer />
       </body>
     </html>
