@@ -6,8 +6,8 @@ import Header from "@/components/header";
 
 const poppins = Poppins({
   style: ["normal"],
-  weight: ["100","200","300","400","500","600","700","800","900"]
-})
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 export const metadata: Metadata = {
   title: "EducaVales Pós Graduação",
@@ -21,11 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body
-        className={`${poppins.className} antialiased`}
-      >
+      <body className={`${poppins.className} antialiased`}>
         <Header />
-        {children}
+        <main className="w-auto h-auto">{children}</main>
         <Footer />
       </body>
     </html>

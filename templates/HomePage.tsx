@@ -1,7 +1,11 @@
+import Banner from "@/components/banner";
 
-export default function HomePage(){
+export default function HomePage() {
   return (
     <div className="w-screen overflow-hidden min-h-screen">
+      <div className="w-full max-h-[600px]">
+        <Banner />
+      </div>
     </div>
-  )
+  );
 }

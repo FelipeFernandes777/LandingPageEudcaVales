@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  scroll-behavior: smooth;
+  transition: ease-in-out;
+  animation-duration: 3000;
 }
