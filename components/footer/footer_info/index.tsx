@@ -90,7 +90,7 @@ export function FooterInfo() {
       <div className="flex gap-2 h-10/12 flex-col">
         <FooterInfoTitle>Links Uteis</FooterInfoTitle>
         <div className="w-full flex items-center justify-evenly gap-2">
-          <FooterInfoDescription url="" link={true}>
+          <FooterInfoDescription url="/politica-privacidade" link={true}>
             Política de Privacidade
           </FooterInfoDescription>
           <FooterInfoDescription url="/cookies" link={true}>

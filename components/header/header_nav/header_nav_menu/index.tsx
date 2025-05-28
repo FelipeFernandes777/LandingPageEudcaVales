@@ -8,7 +8,7 @@ export function HeaderNavMenu() {
   const handleMenu = () => setShowMenu((prev) => !prev);
 
   return (
-    <nav className="relative w-auto h-auto flex items-center justify-center">
+    <nav className="relative w-auto h-20 flex items-center justify-center">
       <button
         onClick={handleMenu}
         aria-label={showMenu ? "Fechar menu" : "Abrir menu"}
@@ -51,7 +51,7 @@ export function HeaderNavMenu() {
         )}
       </button>
       {showMenu && (
-        <ul className="fixed top-10 right-0 bg-slate-100 shadow-md rounded p-4 space-y-2 z-50 w-64">
+        <ul className="fixed top-24 right-0 bg-slate-100 shadow-md rounded-b-lg p-4 space-y-2 z-50 w-64">
           <li className="w-full hover:bg-white">
             <a
               href="#inicio"
