@@ -13,7 +13,7 @@ export function BenneficiesCardImage({alt,src}:IBenneficiesCardImage){
       src={src || "/file.svg"}
       fill
       priority
-      className="object-fit"
+      className="object-cover"
       />
     </div>
   )
