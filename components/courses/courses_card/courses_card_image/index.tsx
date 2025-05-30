@@ -7,7 +7,7 @@ export interface ICoursesCardImage {
 
 export function CoursesCardImage({alt,src}: ICoursesCardImage) {
   return (
-    <div className="w-6/12 h-full relative md:w-full md:h-3/6">
+    <div className="w-6/12 h-full relative md:w-full md:h-3/6 lg:h-full">
       <Image
         alt={alt}
         src={src}
