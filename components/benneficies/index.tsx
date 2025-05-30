@@ -1,6 +1,7 @@
 import { BenneficiesCard } from "./benneficies_card";
 import { BenneficiesContainer } from "./benneficies_container";
 import { BenneficiesTitle } from "./benneficies_title";
+import { BenneficiesFloat } from "./benneficies_float";
 
 export default function Benneficies() {
   const beneficios: BenneficiesCard[] = [
@@ -35,8 +36,9 @@ export default function Benneficies() {
 
   return (
     <BenneficiesContainer>
-      <BenneficiesTitle  title="Vantagens de estudar na EducaVales"/>
+      <BenneficiesFloat />
       <div className="w-11/12 flex  flex-col gap-4 items-center justify-center min-sm:hidden">
+        <BenneficiesTitle title="Vantagens de estudar na EducaVales" />
         {beneficios.map((element, i) => (
           <BenneficiesCard key={i} {...element} />
         ))}
