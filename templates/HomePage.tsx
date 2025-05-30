@@ -1,6 +1,7 @@
 import Banner from "@/components/banner";
 import Benneficies from "@/components/benneficies";
 import Courses from "@/components/courses";
+import Form from "@/components/form";
 import Price from "@/components/price";
 
 export default function HomePage() {
@@ -10,6 +11,7 @@ export default function HomePage() {
       <Benneficies />
       <Courses />
       <Price />
+      <Form />
     </div>
   );
 }
