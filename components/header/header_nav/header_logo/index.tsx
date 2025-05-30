@@ -4,12 +4,12 @@ export function HeaderLogo() {
   return (
     <div className="max-sm:w-full h-auto">
       <Image 
-        alt=""
+        alt="Logo"
         src="/logo.png"
         width={150}
         height={50}
         priority
-        className="object-contain"
+        className="object-cover"
       />
     </div>
   )
