@@ -6,19 +6,19 @@ import { CoursesCardTitle } from "./courses_card_title";
 import { CoursesCardImage, ICoursesCardImage } from "./courses_card_image";
 
 export interface ICourseCard {
-  img: ICoursesCardImage
-  title: string
-  description: string
+  img: ICoursesCardImage;
+  title: string;
+  description: string;
 }
 
-export function CoursesCard({description,img,title}: ICourseCard) {
+export function CoursesCard({ description, img, title }: ICourseCard) {
   return (
     <CoursesCardContainer>
-      <CoursesCardImage alt={img.alt} src={img.src}/>
+      <CoursesCardImage alt={img.alt} src={img.src} />
       <CoursesCardInfoContainer>
         <CoursesCardTitle title={title} />
         <div className="w-full flex h-full items-center justify-center">
-        <CoursesCardDescription description={description} />
+          <CoursesCardDescription description={description} />
         </div>
         <CoursesCardFlag />
       </CoursesCardInfoContainer>

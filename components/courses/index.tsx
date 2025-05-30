@@ -68,6 +68,15 @@ export default function Courses() {
         src: "/courses/comunicacao.jpg",
       },
     },
+        {
+      title: "Comunicação",
+      description:
+        "Forma profissionais para atuar na mediação de informações, com foco em estratégias de linguagem, mídia, marketing e relacionamento com o público.",
+      img: {
+        alt: "Imagem de uma pessoa palestrando",
+        src: "/courses/comunicacao.jpg",
+      },
+    }
   ];
 
   return (
