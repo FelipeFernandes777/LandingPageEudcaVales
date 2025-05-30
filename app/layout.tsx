@@ -8,7 +8,7 @@ import WhatsAppButton from "@/components/whatsapp_button";
 const poppins = Poppins({
   style: ["normal"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  subsets: ["latin"]
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -25,9 +25,8 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={`${poppins.className} antialiased`}>
         <Header />
-        <main className="w-auto h-auto">{children}
-          <WhatsAppButton />
-        </main>
+        {children}
+        <WhatsAppButton />
         <Footer />
       </body>
     </html>

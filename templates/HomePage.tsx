@@ -6,7 +6,7 @@ import Price from "@/components/price";
 
 export default function HomePage() {
   return (
-    <div className="w-screen overflow-hidden">
+    <div className="max-w-screen overflow-hidden">
       <Banner />
       <Benneficies />
       <Courses />
