@@ -62,9 +62,11 @@ export default function Price() {
     <PriceContainer>
       <div className="w-11/12 border-t border-slate-200"></div>
       <PriceTitle>Investimento</PriceTitle>
-      {priceCards.map((item, i) => (
-        <PriceCard {...item} key={i} />
-      ))}
+      <div className="w-full h-auto flex gap-4 p-4 max-sm:flex-col max-sm:p-0 items-center justify-center">
+        {priceCards.map((item, i) => (
+          <PriceCard {...item} key={i} />
+        ))}
+      </div>
     </PriceContainer>
   );
 }
