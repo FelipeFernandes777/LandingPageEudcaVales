@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export function HeaderLogo() {
   return (
-    <div className="max-sm:w-full h-auto">
+    <div className="max-sm:w-full h-full">
       <Image 
         alt="Logo"
-        src="/logo.png"
-        width={150}
-        height={50}
+        src="/logo_black.png"
+        width={100}
+        height={40}
         priority
-        className="object-cover"
+        className="object-center"
       />
     </div>
   )

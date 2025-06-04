@@ -3,7 +3,7 @@ import { HeaderNavMenuDesktopContainer } from "./header_nav_menu_desktop_contain
 export function HeaderNavMenuDesktop() {
   return (
     <HeaderNavMenuDesktopContainer>
-      <span className="flex justify-center items-center gap-2 text-slate-800">
+      <span className="flex justify-center items-center gap-2 text-[var(--black-color)]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -15,7 +15,7 @@ export function HeaderNavMenuDesktop() {
         </svg>
         Inicio
       </span>
-      <span className="flex justify-center items-center gap-2 text-slate-800">
+      <span className="flex justify-center items-center gap-2 text-[var(--black-color)]">
         {" "}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ export function HeaderNavMenuDesktop() {
         </svg>
         Áreas mais procuradas
       </span>
-      <span className="flex justify-center items-center gap-2 text-slate-800">
+      <span className="flex justify-center items-center gap-2 text-[var(--black-color)]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -50,7 +50,7 @@ export function HeaderNavMenuDesktop() {
         </svg>
         Preços
       </span>
-      <span className="flex justify-center items-center gap-2 text-slate-800">
+      <span className="flex justify-center items-center gap-2 text-[var(--black-color)]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"

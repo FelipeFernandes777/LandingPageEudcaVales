@@ -4,4 +4,9 @@
   scroll-behavior: smooth;
   transition: ease-in-out;
   animation-duration: 3000;
+
+  --green-color:#275231;
+  --white-color:#f1f1f1;
+  --black-color:#1b1b1b;
+  --light-green-color:#ccfdd4;
 }

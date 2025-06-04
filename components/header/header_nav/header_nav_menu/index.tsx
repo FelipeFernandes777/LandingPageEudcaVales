@@ -8,7 +8,7 @@ export function HeaderNavMenu() {
   const handleMenu = () => setShowMenu((prev) => !prev);
 
   return (
-    <nav className="relative w-auto h-20 flex items-center justify-center lg:hidden">
+    <nav className="relative w-auto h-20 flex items-center justify-center lg:hidden ">
       <button
         onClick={handleMenu}
         aria-label={showMenu ? "Fechar menu" : "Abrir menu"}
@@ -26,7 +26,7 @@ export function HeaderNavMenu() {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="lucide lucide-x-icon lucide-x"
+            className="lucide lucide-x-icon lucide-x text-[var(--green-color)]"
           >
             <path d="M18 6 6 18" />
             <path d="m6 6 12 12" />
@@ -42,7 +42,7 @@ export function HeaderNavMenu() {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="lucide lucide-menu-icon lucide-menu"
+            className="lucide lucide-menu-icon lucide-menu text-[var(--green-color)]"
           >
             <path d="M4 6h16" />
             <path d="M4 12h16" />
@@ -51,7 +51,7 @@ export function HeaderNavMenu() {
         )}
       </button>
       {showMenu && (
-        <ul className="fixed top-24 right-0 bg-slate-100 shadow-md rounded-b-lg p-4 space-y-2 z-50 w-64">
+        <ul className="fixed top-28 right-0 bg-[var(--light-green-color)] shadow-md rounded-b-lg p-4 space-y-2 z-50 w-64">
           <li className="w-full hover:bg-white">
             <a
               href="#inicio"
@@ -72,7 +72,7 @@ export function HeaderNavMenu() {
           <li>
             <a
               href="#cursos"
-              className="tracking-tight flex gap-2 items-center"
+              className="tracking-tight flex gap-2 items-center "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
