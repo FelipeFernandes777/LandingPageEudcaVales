@@ -17,7 +17,7 @@ export function CoursesCard({ description, img, title }: ICourseCard) {
       <CoursesCardImage alt={img.alt} src={img.src} />
       <CoursesCardInfoContainer>
         <CoursesCardTitle title={title} />
-        <div className="w-full flex h-full items-center justify-center">
+        <div className="w-full flex h-2/5 items-center justify-center">
           <CoursesCardDescription description={description} />
         </div>
         <CoursesCardFlag />

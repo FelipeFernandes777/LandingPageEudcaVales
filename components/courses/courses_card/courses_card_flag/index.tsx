@@ -1,8 +1,8 @@
 export function CoursesCardFlag() {
   return (
-    <div className="w-10/12 bg-slate-400 p-2 flex items-center justify-center rounded-3xl self-center hover:bg-slate-200  transition-colors ease-in duration-300">
-      <p className="text-white font-medium hover:text-slate-500 w-full text-center">
-        100% Ead
+    <div className="w-2/12 max-sm:w-5/12 bg-[var(--light-green-color)] p-2 flex items-center justify-center rounded-3xl self-center absolute lg:bottom-2 lg:left-2 max-[769px]:top-1 md:w-5/12">
+      <p className="text-[var(--black-color)] font-medium w-full text-center">
+        100% EAD
       </p>
     </div>
   );

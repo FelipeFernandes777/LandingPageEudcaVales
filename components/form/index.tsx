@@ -10,7 +10,7 @@ export default function Form() {
       <div className="w-full h-full flex gap-3 justify-center items-center px-5">
         <div className="w-10/12 h-full relative hidden lg:block">
           <Image
-            src={"/form/Checklist.jpg"}
+            src={"/form/Checklist.png"}
             alt="Imagem de um checklist"
             fill
             className="object-contain"
