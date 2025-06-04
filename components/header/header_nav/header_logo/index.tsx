@@ -9,7 +9,7 @@ export function HeaderLogo() {
         width={100}
         height={40}
         priority
-        className="object-center"
+        className="object-cover"
       />
     </div>
   )
