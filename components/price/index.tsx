@@ -60,7 +60,7 @@ export default function Price() {
 
   return (
     <PriceContainer>
-      <div className="w-11/12 border-t border-slate-200"></div>
+      <div className="w-11/12 border-t border-[var(--green-color)]"></div>
       <PriceTitle>Investimento</PriceTitle>
       <div className="w-full h-auto flex gap-4 p-4 max-sm:flex-col max-sm:p-0 items-center justify-center lg:justify-evenly">
         {priceCards.map((item, i) => (
