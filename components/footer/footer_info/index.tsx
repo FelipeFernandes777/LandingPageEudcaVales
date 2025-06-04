@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FooterInfoContainer } from "./footer_info_container";
 import { FooterInfoDescription } from "./footer_info_description";
 import { FooterInfoTitle } from "./footer_info_title/intex";
@@ -12,11 +13,12 @@ export function FooterInfo() {
   return (
     <FooterInfoContainer>
       <div className="flex flex-col gap-2 h-10/12 w-full">
-        <FooterInfoTitle>Logo</FooterInfoTitle>
-        <FooterInfoDescription link={false} url="">
-          Faculdade de pós-graduação 100% EAD, com foco na formação de
-          profissionais com excelência e flexibilidade.
-        </FooterInfoDescription>
+        <Image 
+          alt="Logo da faculdade Educavale"
+          src={"/logo.png"}
+          width={150}
+          height={20}
+        />
         <div className="flex gap-2 items-center w-full">
           <a href={links.instagram}>
             <svg
