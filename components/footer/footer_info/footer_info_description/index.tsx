@@ -14,13 +14,13 @@ export function FooterInfoDescription({
     <>
       {link ? (
         <Link
-          className="text-sm text-slate-300 font-medium hover:text-white transition-colors ease-in duration-150 cursor-pointer tracking-tight max-sm:text-[13px]"
+          className="text-sm text-[var(--white-color)] font-medium hover:text-white transition-colors ease-in duration-150 cursor-pointer tracking-tight max-sm:text-[13px]"
           href={url}
         >
           {children}
         </Link>
       ) : (
-        <span className="text-sm text-slate-300 font-medium hover:text-white transition-colors ease-in duration-150 tracking-tight max-sm:text-[13px]">
+        <span className="text-sm text-[var(--white-color)] font-medium hover:text-white transition-colors ease-in duration-150 tracking-tight max-sm:text-[13px]">
           {children}
         </span>
       )}

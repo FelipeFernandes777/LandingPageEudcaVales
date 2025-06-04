@@ -11,13 +11,13 @@ export function FooterInfo() {
 
   return (
     <FooterInfoContainer>
-      <div className="flex flex-col gap-2 h-10/12">
+      <div className="flex flex-col gap-2 h-10/12 w-full">
         <FooterInfoTitle>Logo</FooterInfoTitle>
         <FooterInfoDescription link={false} url="">
           Faculdade de pós-graduação 100% EAD, com foco na formação de
           profissionais com excelência e flexibilidade.
         </FooterInfoDescription>
-        <div className="flex gap-2 items-center justify-evenly w-full">
+        <div className="flex gap-2 items-center w-full">
           <a href={links.instagram}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ export function FooterInfo() {
           </a>
         </div>
       </div>
-      <div className="flex flex-col gap-2 h-10/12">
+      <div className="flex flex-col gap-2 h-10/12 w-full">
         <FooterInfoTitle>Navegação</FooterInfoTitle>
         <FooterInfoDescription url="#inicio" link={true}>
           Inicio
@@ -87,9 +87,9 @@ export function FooterInfo() {
           Cadastro
         </FooterInfoDescription>
       </div>
-      <div className="flex gap-2 h-10/12 flex-col">
+      <div className="flex gap-2 h-10/12 flex-col w-full">
         <FooterInfoTitle>Links Uteis</FooterInfoTitle>
-        <div className="w-full flex items-center justify-evenly gap-2">
+        <div className="w-full flex items-center gap-2">
           <FooterInfoDescription url="/politica-privacidade" link={true}>
             Política de Privacidade
           </FooterInfoDescription>
@@ -98,6 +98,7 @@ export function FooterInfo() {
           </FooterInfoDescription>
         </div>
       </div>
+      <div className="w-full h-4"></div>
     </FooterInfoContainer>
   );
 }

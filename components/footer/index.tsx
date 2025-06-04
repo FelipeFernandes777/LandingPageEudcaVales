@@ -7,10 +7,10 @@ export default function Footer() {
       <FooterContainer>
         <FooterInfo />
         <div className="w-11/12 p-2 mt-2 border-t border-slate-100 flex justify-center items-center gap-2 max-sm:flex-col">
-          <span className="text-slate-100/60 text-sm">
+          <span className="text-[var(--white-color)] text-sm">
             © {new Date().getFullYear().toString()} EducaVales
           </span>
-          <span className="text-slate-100/60 text-sm">
+          <span className="text-[var(--white-color)] text-sm">
             Todos os direitos reservados
           </span>
         </div>
