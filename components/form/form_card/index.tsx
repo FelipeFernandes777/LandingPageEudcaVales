@@ -68,7 +68,7 @@ export function FormCard() {
 
   return (
     <form
-      className="w-4/5 border border-blue-600 h-auto shadow-md rounded-2xl mt-4 mb-6 p-8 flex flex-col gap-6"
+      className="w-full border border-[var(--green-color)] h-auto shadow-md rounded-2xl mt-4 mb-6 p-8 flex flex-col gap-6 lg:w-4/5"
       onSubmit={onSubmit}
     >
       <div className="flex flex-col">
@@ -83,7 +83,7 @@ export function FormCard() {
           name="name"
           id="name"
           required
-          className="border-b border-slate-300 focus:outline-none focus:border-b-2 focus:border-blue-500 transition-all p-1"
+          className="border-b border-slate-300 focus:outline-none focus:border-b-2 focus:border-[--var(--light-green-color)] transition-all p-1"
         />
       </div>
 
@@ -99,7 +99,7 @@ export function FormCard() {
           id="country"
           value={countryCode}
           onChange={(e) => setCountryCode(e.target.value)}
-          className="border-b border-slate-300 focus:outline-none focus:border-b-2 focus:border-blue-500 transition-all p-1"
+          className="border-b border-slate-300 focus:outline-none focus:border-b-2 focus:border-[--var(--light-green-color)] transition-all p-1"
         >
           <option value="+55">Brasil (+55)</option>
           <option value="+1">EUA (+1)</option>
@@ -125,7 +125,7 @@ export function FormCard() {
           value={data.phone}
           onChange={handlePhoneChange}
           placeholder="(11) 9 1234-5678"
-          className="border-b border-slate-300 focus:outline-none focus:border-b-2 focus:border-blue-500 transition-all p-1"
+          className="border-b border-slate-300 focus:outline-none focus:border-b-2 focus:border-[--var(--light-green-color)] transition-all p-1"
         />
       </div>
 
@@ -143,13 +143,13 @@ export function FormCard() {
           required
           pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
           title="Digite um email válido, como exemplo@email.com"
-          className="border-b border-slate-300 focus:outline-none focus:border-b-2 focus:border-blue-500 transition-all p-1"
+          className="border-b border-slate-300 focus:outline-none focus:border-b-2 focus:border-[--var(--light-green-color)] transition-all p-1"
         />
       </div>
 
       <button
         type="submit"
-        className="mt-6 bg-blue-600 text-white py-2 px-4 rounded-2xl hover:bg-blue-700 transition-all self-end w-full"
+        className="mt-6 bg-[var(--green-color)]/90 text-white py-2 px-4 rounded-2xl hover:bg-[var(--green-color)] transition-all self-end w-full"
       >
         Enviar
       </button>

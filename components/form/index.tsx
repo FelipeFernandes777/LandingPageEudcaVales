@@ -8,7 +8,7 @@ export default function Form() {
     <FormContainer>
       <FormTitle title="Entre em contato" />
       <div className="w-full h-full flex gap-3 justify-center items-center px-5">
-        <div className="w-full h-full relative hidden lg:block">
+        <div className="w-10/12 h-full relative hidden lg:block">
           <Image
             src={"/form/Checklist.jpg"}
             alt="Imagem de um checklist"
@@ -16,7 +16,9 @@ export default function Form() {
             className="object-contain"
           />
         </div>
-        <FormCard />
+        <div className="lg:w-3/5 h-auto w-full">
+          <FormCard />
+        </div>
       </div>
     </FormContainer>
   );
