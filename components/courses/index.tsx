@@ -15,7 +15,7 @@ export default function Courses() {
       },
     },
     {
-      title: "Jurídica",
+      title: "Saúde",
       description:
         "Capacita profissionais para atuar na promoção, prevenção e cuidado com a saúde, com foco no bem-estar físico, mental e social da população.",
       img: {

@@ -12,7 +12,7 @@ export interface BenneficiesCard {
 export function BenneficiesCard({img, description,title}: BenneficiesCard){
   return (
     <BenneficiesCardContainer>
-      <div className="w-full h-7/12 mb-1">
+      <div className="w-full h-7/12 mb-1 border">
       <BenneficiesCardImage src={img.src} alt={img.alt}/>
       </div>
       <div className="h-5/12 flex flex-col w-full gap justify-center p-2">

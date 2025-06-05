@@ -13,7 +13,7 @@ export function CoursesCardImage({alt,src}: ICoursesCardImage) {
         src={src}
         fill
         priority
-        className="object-cover object-center"
+        className="object-cover"
       />
     </div>
   );
