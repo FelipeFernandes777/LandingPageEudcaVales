@@ -1,19 +1,13 @@
-import Image from "next/image";
+import { ReactElement } from "react";
 
 export interface IBenneficiesFloatCardImage {
-  src: string
-  alt: string
+  icon: ReactElement
 }
 
-export function BenneficiesFloatCardImage({src,alt}: IBenneficiesFloatCardImage) {
+export function BenneficiesFloatCardImage({icon}: IBenneficiesFloatCardImage) {
   return (
     <div className="h-full w-2/5 relative flex items-center justify-center">
-      <Image
-        src={src}
-        alt={alt}
-        fill
-        className="object-contain"
-      />
+      {icon}
     </div>
   );
 }
