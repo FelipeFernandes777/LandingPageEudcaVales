@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 export function HeaderNavMenu() {
@@ -53,8 +54,8 @@ export function HeaderNavMenu() {
       {showMenu && (
         <ul className="fixed top-28 right-0 bg-[var(--light-green-color)] shadow-md rounded-b-lg p-4 space-y-2 z-50 w-64">
           <li className="w-full hover:bg-white">
-            <a
-              href="#inicio"
+            <Link
+              href="/"
               className="tracking-tight flex gap-2 items-center"
             >
               <svg
@@ -67,7 +68,7 @@ export function HeaderNavMenu() {
                 <path d="M219.31,108.68l-80-80a16,16,0,0,0-22.62,0l-80,80A15.87,15.87,0,0,0,32,120v96a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V160h32v56a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V120A15.87,15.87,0,0,0,219.31,108.68ZM208,208H160V152a8,8,0,0,0-8-8H104a8,8,0,0,0-8,8v56H48V120l80-80,80,80Z"></path>
               </svg>
               Início
-            </a>
+            </Link>
           </li>
           <li>
             <a

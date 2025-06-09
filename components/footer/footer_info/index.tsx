@@ -57,7 +57,7 @@ export function FooterInfo() {
       </div>
       <div className="flex flex-col gap-2 h-10/12 w-full">
         <FooterInfoTitle>Navegação</FooterInfoTitle>
-        <FooterInfoDescription url="#inicio" link={true}>
+        <FooterInfoDescription url="/" link={true}>
           Inicio
         </FooterInfoDescription>
         <FooterInfoDescription url="#cursos" link={true}>
