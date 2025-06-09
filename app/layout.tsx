@@ -5,6 +5,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import WhatsAppButton from "@/components/whatsapp_button";
 import Script from "next/script";
+import CookieConsent from "@/components/cookie";
 
 const poppins = Poppins({
   style: ["normal"],
@@ -91,6 +92,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <WhatsAppButton />
+        <CookieConsent />
         <Footer />
       </body>
     </html>
