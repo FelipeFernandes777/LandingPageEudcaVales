@@ -1,5 +1,0 @@
-# Permite que todos os bots indexem o site
-User-agent: *
-Disallow:
-
-Sitemap: https://faculdadeeducavale.com.br/sitemap.xml
