@@ -60,14 +60,14 @@ export function FooterInfo() {
         <FooterInfoDescription url="#inicio" link={true}>
           Inicio
         </FooterInfoDescription>
-        <FooterInfoDescription url="#areas" link={true}>
+        <FooterInfoDescription url="#cursos" link={true}>
           Áreas mais procuradas
         </FooterInfoDescription>
-        <FooterInfoDescription url="#depoimentos" link={true}>
-          Depoimentos de Alunos
+        <FooterInfoDescription url="#preco" link={true}>
+          Preço
         </FooterInfoDescription>
-        <FooterInfoDescription url="#cadastro" link={true}>
-          Cadastro
+        <FooterInfoDescription url="#contato" link={true}>
+          Contato
         </FooterInfoDescription>
       </div>
       <div className="flex gap-2 h-10/12 flex-col w-full">
@@ -76,7 +76,7 @@ export function FooterInfo() {
           <FooterInfoDescription url="/politica-privacidade" link={true}>
             Política de Privacidade
           </FooterInfoDescription>
-          <FooterInfoDescription url="/cookies" link={true}>
+          <FooterInfoDescription url="/politica-cookies" link={true}>
             Política de Cookies
           </FooterInfoDescription>
         </div>

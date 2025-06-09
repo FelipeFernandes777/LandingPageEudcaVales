@@ -98,7 +98,7 @@ export function HeaderNavMenu() {
           </li>
           <li>
             <a
-              href="#contato"
+              href="#preco"
               className="tracking-tight flex gap-2 items-center"
             >
               <svg
