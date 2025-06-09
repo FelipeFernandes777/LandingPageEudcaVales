@@ -89,7 +89,7 @@ export default function RootLayout({
       </head>
       <body className={`${poppins.className} antialiased`}>
         <Header />
-        {children}
+        <main className="flex-1">{children}</main>
         <WhatsAppButton />
         <Footer />
       </body>
