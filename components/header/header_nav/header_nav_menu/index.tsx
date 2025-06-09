@@ -52,7 +52,7 @@ export function HeaderNavMenu() {
         )}
       </button>
       {showMenu && (
-        <ul className="fixed top-28 right-0 bg-[var(--light-green-color)] shadow-md rounded-b-lg p-4 space-y-2 z-50 w-64">
+        <ul className="fixed top-28 right-0 bg-white shadow-md rounded-b-lg p-4 space-y-2 z-50 w-64">
           <li className="w-full hover:bg-white">
             <Link
               href="/"
