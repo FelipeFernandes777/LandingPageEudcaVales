@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     canonical: "https://faculdadeeducavale.com.br",
   },
   icons: {
-    icon: "/favicon.ico"
+    icon: "/favicon32.png"
   }
 };
 
@@ -90,6 +90,7 @@ export default function RootLayout({
             }),
           }}
         />
+        <link rel="shortcut icon" href="/favicon32.png" type="image/x-icon" />
       </head>
       <body className={`${poppins.className} antialiased`}>
         <Header />
