@@ -1,96 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+  <!-- Página inicial com banners -->
   <url>
     <loc>https://faculdadeeducavale.com.br/</loc>
     <lastmod>2025-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/banner/banner-large.jpeg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/banner/banner-medium.jpeg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/banner/banner-small.jpeg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/banner/banner-xlarge.jpeg</image:loc>
+    </image:image>
   </url>
 
+  <!-- Página de benefícios com ícones -->
+  <url>
+    <loc>https://faculdadeeducavale.com.br/beneficies</loc>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/beneficies/bar-chart.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/beneficies/certificado.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/beneficies/certificate.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/beneficies/economia.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/beneficies/estudo.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/beneficies/world.svg</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Página de cursos com imagens -->
   <url>
     <loc>https://faculdadeeducavale.com.br/cursos</loc>
-    <lastmod>2025-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/courses/ceo.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/courses/comunicacao.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/courses/direito.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/courses/educacao.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/courses/saudeE.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/courses/servico-social.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/courses/tecnologia.jpg</image:loc>
+    </image:image>
   </url>
 
+  <!-- Página de pagamento/formulário com ícones -->
   <url>
-    <loc>https://faculdadeeducavale.com.br/contato</loc>
-    <lastmod>2025-06-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <!-- Banners -->
-  <url>
-    <loc>https://faculdadeeducavale.com.br/banner/banner-large.jpeg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/banner/banner-medium.jpeg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/banner/banner-small.jpeg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/banner/banner-xlarge.jpeg</loc>
-  </url>
-
-  <!-- Benefícios -->
-  <url>
-    <loc>https://faculdadeeducavale.com.br/beneficies/bar-chart.svg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/beneficies/certificado.jpg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/beneficies/certificate.svg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/beneficies/economia.jpg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/beneficies/estudo.jpg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/beneficies/world.svg</loc>
-  </url>
-
-  <!-- Courses -->
-  <url>
-    <loc>https://faculdadeeducavale.com.br/courses/ceo.jpg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/courses/comunicacao.jpg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/courses/direito.jpg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/courses/educacao.jpg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/courses/saudeE.jpg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/courses/servico-social.jpg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/courses/tecnologia.jpg</loc>
-  </url>
-
-  <!-- Formulário / Pagamento -->
-  <url>
-    <loc>https://faculdadeeducavale.com.br/form/cartao.svg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/form/file.svg</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/form/logo_black.png</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/form/logo.png</loc>
-  </url>
-  <url>
-    <loc>https://faculdadeeducavale.com.br/form/pix.svg</loc>
+    <loc>https://faculdadeeducavale.com.br/form</loc>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/form/cartao.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/form/file.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/form/logo_black.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/form/logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://faculdadeeducavale.com.br/form/pix.svg</image:loc>
+    </image:image>
   </url>
 </urlset>

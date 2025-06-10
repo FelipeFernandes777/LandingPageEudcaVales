@@ -23,7 +23,7 @@ export function PriceCard({ img, title, flag, price, benneficie }: IPriceCard) {
   return (
     <PriceCardContainer>
       <PriceCardHeaderSection>
-        <Image alt={img.alt} src={img.src} width={60} height={60}/>
+        <Image alt={img.alt} src={img.src} width={60} height={60} />
         <PriceCardTitle title={title} />
         <PriceCardFlag flag={flag} />
         <PriceCardPrices price={price} />

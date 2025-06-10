@@ -1,6 +1,6 @@
 export default function PoliticaDeCookies() {
   return (
-    <article className="w-full bg-white text-black p-6 md:p-12 rounded-none md:rounded-2xl shadow-lg min-h-[545px]">
+    <article className="w-full bg-white text-black p-6 md:p-12 rounded-none md:rounded-2xl shadow-lg h-auto min-h-[545px]">
       <div className="max-w-5xl mx-auto border border-[var(--light-green-color)] p-4 shadow-lg rounded-2xl h-[400px] flex justify-center flex-col">
         <h2 className="text-3xl font-bold text-green mb-6">
           Política de Cookies
