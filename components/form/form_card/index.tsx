@@ -3,8 +3,6 @@
 import { FormEvent, useState } from "react";
 
 export function FormCard() {
-  const [countryCode, setCountryCode] = useState("+55");
-
   const [data, setData] = useState<{
     name: string;
     email: string;
@@ -42,26 +40,23 @@ export function FormCard() {
     const name = String(formData.get("name"));
     const email = String(formData.get("email"));
 
-    const submittedData = {
-      name,
-      email,
-      phone: `${countryCode} ${data.phone}`,
-    };
+    // const submittedData = {
+    //   name,
+    //   email,
+    //   phone: `+55 ${data.phone}`,
+    // };
 
     setData({
       name,
       email,
       phone: data.phone,
     });
-    alert(JSON.stringify(submittedData, null, 2));
 
     setData({
       name: "",
       email: "",
       phone: "",
     });
-
-    setCountryCode("+55");
 
     e.currentTarget.reset();
   };
@@ -85,28 +80,6 @@ export function FormCard() {
           required
           className="border-b border-slate-300 focus:outline-none focus:border-b-2 focus:border-[--var(--light-green-color)] transition-all p-1"
         />
-      </div>
-
-      <div className="flex flex-col">
-        <label
-          htmlFor="country"
-          className="text-sm font-medium text-slate-600 mb-1"
-        >
-          País / Código
-        </label>
-        <select
-          name="country"
-          id="country"
-          value={countryCode}
-          onChange={(e) => setCountryCode(e.target.value)}
-          className="border-b border-slate-300 focus:outline-none focus:border-b-2 focus:border-[--var(--light-green-color)] transition-all p-1"
-        >
-          <option value="+55">Brasil (+55)</option>
-          <option value="+1">EUA (+1)</option>
-          <option value="+44">Reino Unido (+44)</option>
-          <option value="+34">Espanha (+34)</option>
-          <option value="+351">Portugal (+351)</option>
-        </select>
       </div>
 
       <div className="flex flex-col">
