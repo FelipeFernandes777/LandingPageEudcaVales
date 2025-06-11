@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import Link from "next/link";
 
 export function FormCard() {
   const [data, setData] = useState<{
@@ -119,7 +120,18 @@ export function FormCard() {
           className="border-b border-slate-300 focus:outline-none focus:border-b-2 focus:border-[--var(--light-green-color)] transition-all p-1"
         />
       </div>
-
+      <div className="w-full flex gap-3">
+        <input type="checkbox" name="concetiment" id="concentiment" required={true}/>
+        <span className="flex gap-1">
+          Li e concordo com os
+          <Link
+            href="/"
+            className="text-blue-400"
+          >
+            termos de concentimento.
+          </Link>
+        </span>
+      </div>
       <button
         type="submit"
         className="mt-6 bg-[var(--green-color)]/90 text-white py-2 px-4 rounded-2xl hover:bg-[var(--green-color)] transition-all self-end w-full"
