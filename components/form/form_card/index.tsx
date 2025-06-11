@@ -125,7 +125,7 @@ export function FormCard() {
         <span className="flex gap-1">
           Li e concordo com os
           <Link
-            href="/"
+            href="/politica-concentimento"
             className="text-blue-400"
           >
             termos de concentimento.

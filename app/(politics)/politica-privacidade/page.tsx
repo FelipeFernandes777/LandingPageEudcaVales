@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PoliticaPrivacidade() {
   return (
     <article className="w-full text-black p-6 md:p-12 rounded-none md:rounded-2xl shadow-lg h-auto min-h-[545px]">
@@ -26,6 +28,11 @@ export default function PoliticaPrivacidade() {
           através dos canais de atendimento disponíveis.
         </p>
       </div>
+      <button className="w-64 p-2  text-[var(--green-color)] bg-white border border-[var(--green-color)] rounded-xl flex items-center justify-center hover:bg-[var(--light-green-color)]/30 transition-colors ease-in duration-150 self-center place-self-center mt-10">
+        <Link href={"/"}>
+          Voltar para pagina principal
+        </Link>
+      </button>
     </article>
   );
 }
