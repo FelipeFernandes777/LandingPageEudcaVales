@@ -8,7 +8,7 @@ export default function Benneficies() {
     {
       img: {
         alt: "Imagem de um porquinho de poupança",
-        src: "/benneficies/economia.jpg",
+        src: "/benefices/economia.jpg",
       },
       description:
         "Pós-graduação que cabe no seu bolso: invista em sua carreira com mensalidades acessíveis, sem taxas escondidas e com o melhor custo-benefício do mercado!",
@@ -17,7 +17,7 @@ export default function Benneficies() {
     {
       img: {
         alt: "Imagem de um certificado ",
-        src: "/benneficies/certificado.jpg",
+        src: "/benefices/certificado.jpg",
       },
       description:
         "Certificado digital pronto em até 48 horas úteis: rápido, seguro e reconhecido para valorizar o seu currículo sem demora!",
@@ -26,7 +26,7 @@ export default function Benneficies() {
     {
       img: {
         alt: "Imagem de uma pessoa estudando na frente de um computador",
-        src: "/benneficies/estudo.jpg",
+        src: "/benefices/estudo.jpg",
       },
       description:
         "Estude onde e quando quiser: nossa pós-graduação é 100% EAD, com total flexibilidade para você aprender no seu ritmo, sem abrir mão da qualidade!",
