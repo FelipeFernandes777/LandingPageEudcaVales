@@ -91,6 +91,7 @@ export default function RootLayout({
           }}
         />
         <link rel="shortcut icon" href="/favicon16.png" type="image/x-icon" />
+        <meta name="google-site-verification" content="rDAI_CmrSUIzf-NmBpAuUWh0EyQNG28DE9iUXRSdds4" />
       </head>
       <body className={`${poppins.className} antialiased`}>
         <Header />
