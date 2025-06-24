@@ -124,7 +124,7 @@ export function FormCard() {
               checked={data.consignment}
               onChange={handleCheckboxChange}
           />
-          <span className="flex gap-1 text-sm text-slate-600">
+          <span className="flex gap-1 text-sm text-slate-600 max-[426px]:flex max-[426px]:flex-col">
           Li e concordo com os{" "}
             <Link href="/politica-concentimento" className="text-blue-400">
             termos de consentimento.
