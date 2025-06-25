@@ -84,13 +84,14 @@ export default function RootLayout({
               url: "https://faculdadeeducavale.com.br",
               logo: "https://faculdadeeducavale.com.br/form/logo.png",
               sameAs: [
-                "https://www.instagram.com/educavale.oficial?igsh=MW1vcWY4cWZ4ZGxrMg==", // Colocar pagina instagram
+                "https://www.instagram.com/educavale.oficial?igsh=MW1vcWY4cWZ4ZGxrMg==",
                 "https://www.facebook.com/Educavale/",
               ],
             }),
           }}
         />
-        <link rel="shortcut icon" href="/favicon16.png" type="image/x-icon" />
+        <link rel="icon" href="/favicon16.png" type="image/png" sizes={"16x16"} />
+        <link rel="icon" href="/favicon32.png" type="image/png" sizes={"32x32"} />
         <meta name="google-site-verification" content="rDAI_CmrSUIzf-NmBpAuUWh0EyQNG28DE9iUXRSdds4" />
       </head>
       <body className={`${poppins.className} antialiased`}>
