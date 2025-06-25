@@ -18,11 +18,7 @@ export const metadata: Metadata = {
   description:
     "EducaVales é a faculdade EAD que transforma vidas. Faça sua pós-graduação com qualidade, certificado reconhecido e preço acessível.",
   keywords: [
-    "EducaVales",
-    "Faculdade EAD",
-    "Pós-Graduação",
-    "Cursos Online",
-    "Educação a Distância",
+    "faculdade educavale", "engenharia educavale", "cursos de pós graduação educavale", "EducaVales", "Faculdade EAD", "Pós-Graduação", "Cursos Online", "Educação a Distância",
   ],
   authors: [
     { name: "Faculdade EducaVales", url: "https://faculdadeeducavale.com.br" },
