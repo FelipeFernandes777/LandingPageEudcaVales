@@ -69,12 +69,12 @@ export default function Courses() {
       },
     },
         {
-      title: "Comunicação",
+      title: "Engenharia",
       description:
-        "Forma profissionais para atuar na mediação de informações, com foco em estratégias de linguagem, mídia, marketing e relacionamento com o público.",
+        "Forma profissionais para desenvolver soluções tecnológicas e inovadoras, com foco em planejamento, projeto, execução e otimização de sistemas e processos nas diversas áreas da engenharia.",
       img: {
         alt: "Imagem de uma pessoa palestrando",
-        src: "/courses/comunicacao.jpg",
+        src: "/courses/engenharia.jpg",
       },
     }
   ];
