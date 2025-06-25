@@ -90,8 +90,10 @@ export default function RootLayout({
             }),
           }}
         />
-        <link rel="icon" href="/favicon16.png" type="image/png" sizes={"16x16"} />
-        <link rel="icon" href="/favicon32.png" type="image/png" sizes={"32x32"} />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon16.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon32.png" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="manifest" href="https://faculdadeeducavale.com.br/manifest.json" />
         <meta name="google-site-verification" content="rDAI_CmrSUIzf-NmBpAuUWh0EyQNG28DE9iUXRSdds4" />
       </head>
       <body className={`${poppins.className} antialiased`}>
