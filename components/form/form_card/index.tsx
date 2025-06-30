@@ -8,6 +8,7 @@ export function FormCard() {
     name: "",
     email: "",
     phone: "",
+    graduation: false,
     consignment: false,
   });
 
@@ -44,6 +45,13 @@ export function FormCard() {
     }));
   };
 
+  const handleGraduationChange = (value: boolean) => {
+    setData((prev) => ({
+      ...prev,
+      graduation: value,
+    }));
+  };
+
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -51,12 +59,14 @@ export function FormCard() {
 
     if (data.consignment) {
       localStorage.setItem("consentimentoAceito", "true");
+      // localStorage.setItem("formData", JSON.stringify(data)); // opcional
     }
 
     setData({
       name: "",
       email: "",
       phone: "",
+      graduation: false,
       consignment: false,
     });
   };
@@ -75,6 +85,7 @@ export function FormCard() {
               name="name"
               id="name"
               required
+              autoComplete="name"
               value={data.name}
               onChange={handleChange}
               className="border-b border-slate-300 focus:outline-none focus:border-b-2 focus:border-[--var(--light-green-color)] transition-all p-1"
@@ -90,7 +101,7 @@ export function FormCard() {
               name="phone"
               id="phone"
               required
-              maxLength={16}
+              autoComplete="tel"
               value={data.phone}
               onChange={handlePhoneChange}
               placeholder="(11) 9 1234-5678"
@@ -107,6 +118,7 @@ export function FormCard() {
               name="email"
               id="email"
               required
+              autoComplete="email"
               pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
               title="Digite um email válido, como exemplo@email.com"
               value={data.email}
@@ -115,7 +127,39 @@ export function FormCard() {
           />
         </div>
 
-        <div className="w-full flex gap-3 items-start">
+        <div className="w-full flex gap-3 flex-col">
+          <span className="text-sm text-slate-600">Você possui graduação?</span>
+          <div className="w-full flex gap-20 items-center justify-start">
+            <div className="flex items-center gap-2">
+              <input
+                  type="radio"
+                  name="graduation"
+                  id="graduation_yes"
+                  value="true"
+                  checked={data.graduation === true}
+                  onChange={() => handleGraduationChange(true)}
+              />
+              <label htmlFor="graduation_yes" className="text-sm text-slate-600">
+                Sim
+              </label>
+            </div>
+            <div className="flex items-center gap-2">
+              <input
+                  type="radio"
+                  name="graduation"
+                  id="graduation_no"
+                  value="false"
+                  checked={data.graduation === false}
+                  onChange={() => handleGraduationChange(false)}
+              />
+              <label htmlFor="graduation_no" className="text-sm text-slate-600">
+                Não
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full flex gap-3 items-center">
           <input
               type="checkbox"
               name="consignment"
