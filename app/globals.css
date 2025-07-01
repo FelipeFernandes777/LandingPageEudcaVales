@@ -3,7 +3,7 @@
 :root {
   scroll-behavior: smooth;
   transition: ease-in-out;
-  animation-duration: 3000;
+  animation-duration: 3000ms;
 
   --green-color:#275231;
   --white-color:#f1f1f1;
