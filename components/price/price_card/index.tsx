@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import { PriceCardContainer } from "./price_card_container";
 import { PriceCardFlag } from "./price_card_flag";
@@ -7,6 +8,8 @@ import { PriceCardBodySection } from "./price_card_body_section";
 import { PriceCardPrices } from "./price_card_prices";
 import { PriceCardButton } from "./price_card_button";
 import { PriceCardBonusList } from "./price_card_bonus_list";
+import Modal from "@/components/modal";
+import {useState} from "react";
 
 export interface IPriceCard {
   img: {
@@ -20,6 +23,9 @@ export interface IPriceCard {
 }
 
 export function PriceCard({ img, title, flag, price, benneficie }: IPriceCard) {
+
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <PriceCardContainer>
       <PriceCardHeaderSection>
@@ -30,8 +36,9 @@ export function PriceCard({ img, title, flag, price, benneficie }: IPriceCard) {
       </PriceCardHeaderSection>
       <PriceCardBodySection>
         <PriceCardBonusList benneficie={benneficie} />
-        <PriceCardButton title="Matricule-se" />
+        <PriceCardButton title="Matricule-se"  onClick={() => setShowModal(true)} />
       </PriceCardBodySection>
+    <Modal show={showModal} onClose={() => setShowModal(false)} />
     </PriceCardContainer>
   );
 }

@@ -1,9 +1,15 @@
+"use client"
 import Image from "next/image";
+import Modal from "@/components/modal";
+import {useState} from "react";
 
 export function BannerImage() {
+
+  const [showModal, setShowModal] = useState(false);
+
   return (
-    <div className="w-full h-full relative">
-      <picture>
+    <div className="w-full h-full relative cursor-pointer">
+      <picture onClick={() => {setShowModal(true)}}>
         <source
           srcSet="/banner/banner-xlarge.png"
           media="(min-width: 1920px)"
@@ -25,6 +31,7 @@ export function BannerImage() {
           className="object-cover"
         />
       </picture>
+      <Modal show={showModal} onClose={() => setShowModal(false)} />
     </div>
   );
 }
