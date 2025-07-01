@@ -8,10 +8,7 @@ type ModalProps = {
     onClose: () => void;
 };
 
-"@ts-ignore"
 export default function Modal({ show, onClose }: ModalProps) {
-    if (!show) return null;
-
     const [data, setData] = useState({
         name: "",
         email: "",
@@ -19,6 +16,8 @@ export default function Modal({ show, onClose }: ModalProps) {
         graduation: false,
         consignment: false,
     });
+
+    if(!show) return null;
 
     const formatPhone = (value: string) => {
         const digits = value.replace(/\D/g, "").slice(0, 11);
