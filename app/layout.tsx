@@ -1,11 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import Footer from "@/components/footer";
-import Header from "@/components/header";
-import WhatsAppButton from "@/components/whatsapp_button";
 import Script from "next/script";
-import CookieConsent from "@/components/cookie";
 
 const poppins = Poppins({
   style: ["normal"],

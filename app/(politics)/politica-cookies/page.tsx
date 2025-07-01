@@ -1,5 +1,4 @@
-import Link from "next/link";
-import Footer from "@/components/footer";
+import Link from "next/link";import Footer from "@/components/footer";
 
 export default function PoliticaDeCookies() {
   return (

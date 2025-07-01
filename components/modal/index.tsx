@@ -8,6 +8,7 @@ type ModalProps = {
     onClose: () => void;
 };
 
+"@ts-ignore"
 export default function Modal({ show, onClose }: ModalProps) {
     if (!show) return null;
 
