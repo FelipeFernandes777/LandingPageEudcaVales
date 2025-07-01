@@ -1,8 +1,8 @@
 import Link from "next/link";
-
+import Footer from "@/components/footer";
 export default function ConcentimentPage() {
     return (
-        <div className="w-full h-screen overflow-hidden flex items-center justify-center flex-col gap-5 border-t border-gray-200">
+        <div className="w-full h-screen flex items-center justify-center flex-col gap-5 border-t border-gray-200">
             <article className="w-6/12 bg-white text-black p-6 md:p-12 rounded-none md:rounded-2xl shadow-lg h-auto min-h-[545px] overflow-auto max-h-[600px] border-gray-200 border">
                 <h2 className="text-3xl font-bold text-green mb-6">Termos de Consentimento</h2>
                 <p className="mb-4">

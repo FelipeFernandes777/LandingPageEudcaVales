@@ -93,11 +93,7 @@ export default function RootLayout({
         <meta name="google-site-verification" content="rDAI_CmrSUIzf-NmBpAuUWh0EyQNG28DE9iUXRSdds4" />
       </head>
       <body className={`${poppins.className} antialiased`}>
-        <Header />
         <main className="flex-1">{children}</main>
-        <WhatsAppButton />
-        <CookieConsent />
-        <Footer />
       </body>
     </html>
   );
