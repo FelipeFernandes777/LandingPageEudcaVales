@@ -11,18 +11,18 @@ export function BannerImage() {
     <div className="w-full h-full relative cursor-pointer">
       <picture onClick={() => {setShowModal(true)}}>
         <source
-          srcSet="/banner/banner-xlarge.png"
+          srcSet="/banner/banner-xlarge.webp"
           media="(min-width: 1920px)"
         />
         <source
-          srcSet="/banner/banner-large.png"
+          srcSet="/banner/banner-large.webp"
           media="(min-width: 1440px)"
         />
         <source
-          srcSet="/banner/banner-medium.png"
+          srcSet="/banner/banner-medium.webp"
           media="(min-width: 640px)"
         />
-        <source srcSet="/banner/banner-small.png" media="(max-width: 639px)" />
+        <source srcSet="/banner/banner-small.webp" media="(max-width: 639px)" />
         <Image
           alt="Banner ilustrativo"
           src="/banner/banner-medium.png"
