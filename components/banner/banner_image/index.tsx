@@ -25,7 +25,7 @@ export function BannerImage() {
         <source srcSet="/banner/banner-small.webp" media="(max-width: 639px)" />
         <Image
           alt="Banner ilustrativo"
-          src="/banner/banner-medium.png"
+          src="/banner/banner-medium.webp"
           fill
           priority
           className="object-cover"
